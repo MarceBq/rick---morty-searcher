@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 # Learned concepts
 
 ### Asynchronous functions
-### Custom Hooks create
+### Custom Hooks implementation
 ### Hooks:
 
 - useMemo
