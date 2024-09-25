@@ -1,0 +1,39 @@
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.character-form {
+  width: 90%;
+}
+
+.character-state {
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.characters {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+  list-style: none;
+}
+
+.characters img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.character {
+  text-align: center;
+  text-decoration: none;
+}
